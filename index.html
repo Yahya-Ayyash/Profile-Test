@@ -48,6 +48,16 @@
             line-height: 1.6;
         }
 
+        .progress {
+            background-color: #e9ecef;
+            border-radius: 10px;
+            height: 20px;
+        }
+
+        .progress-bar {
+            background-color: #1E90FF;
+        }
+
         .social-links a {
             height: 44px;
             width: 44px;
@@ -100,7 +110,7 @@
             transition: all 0.3s ease-in-out;
         }
 
-        
+
         @media (max-width: 768px) {
             .header-img {
                 height: 250px;
@@ -146,11 +156,29 @@
             </div>
         </header>
 
-        <section>
-            <div class="py-3 d-flex justify-content-between mb-3">
-                <p>What I've Learned So Far:</p>
-                <img src="logo-kodein 1.png" alt="Logo Official KODEIN" style="height: 42px">
+        <div class="py-3 d-flex justify-content-between mb-3">
+
+            <img src="logo-kodein 1.png" alt="Logo Official KODEIN" style="height: 42px">
+        </div>
+
+
+        <section class="py-4" id="skills">
+            <h3 class="text-center">My Skills</h3>
+            <div class="progress my-3">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+                    aria-valuemax="100">HTML</div>
             </div>
+            <div class="progress my-3">
+                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0"
+                    aria-valuemax="100">CSS</div>
+            </div>
+            <div class="progress my-3">
+                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+                    aria-valuemax="100">JavaScript</div>
+            </div>
+        </section>
+
+        <section>
 
             <a class="btn-link" href="/Multimedia-Showcase" target="_blank">
                 <i class="bi bi-images"></i>
